@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+.refresh			{ clear:both}
+.midwrap			{ margin:auto; max-width:1024px}
+.one				{background-color: #FFF; min-height:100px;}
+.one_1				{background-color:#FFF; width:30%; min-height:60px; text-align:center; float:left; margin-top:20px;}
+.one_2				{background-color: #F0F0F0; width:50%; min-height:40px; text-align:center; float:right; margin:20px; padding-bottom:10px}
+.one_2 a			{color:#1e72bd; text-decoration:none; margin-right:20px; font-family:Arial, Helvetica, sans-serif; font-size:15px}
+.one_2 a:hover		{color: #F60}
+.one_2 ul 			{ list-style:none;}
+.one_2 ul li		{float:left}
+
+.two				{background-color:#1e72bd; min-height:30px}
+.two_1				{color:#FFF; font-family:Arial, Helvetica, sans-serif; width:20%; float:right; min-height:22px; padding-top:8px; font-size:13px; text-align:center}
+.two_1:hover		{background-color:#333; cursor:pointer}
+
+.imgblg				{background-image:url(images/nirvana.jpg); min-height:500px}
+.imgblg_1			{width:50%; min-height:300px; color:#FFF; padding-top:100px; padding-left:60px; float:left; font-family:Arial, Helvetica, sans-serif}
+.imgblg_1 ul 		{ list-style:none;}
+.imgblg_2			{color:#FFF; width:25%; min-height:300px; float:right; margin-right:15px; margin-top:70px; font-family:Arial, Helvetica, sans-serif}
+.imgblg_2 ul li:hover	{color: #0CF; cursor:pointer}
+.imgblg_2 ul			{list-style:none}
+
+.three				{ background-color:#ededed; min-height:250px}
+.three_1			{min-height:100px; color:#3a3a3a; text-align:center; font-family:Arial, Helvetica, sans-serif; padding-top: 40px}
+.three_1 a			{color:#1e73be; text-decoration:none;}
+.three_1 a:hover	{color:#F60}
+.three_2			{min-height:100px; text-align:center; margin-top:20px}
+.three_2 input		{border: 1px solid #666; border-radius:3px; padding:15px; margin:5px}
+.three_2 button		{color:#FFFFFF; padding:15px; border-radius:8px; background-color:#1e73be}
+.three_2 button:hover	{background-color:#F60; cursor:pointer}
+
+.four				{min-height:450px; font-family:Arial, Helvetica, sans-serif; border-bottom: 2px solid #1e73be}
+.four_1				{width:68%; min-height:300px; float:left; padding-top:60px; padding-left:30px}
+.four_1 p			{color:#212121}
+.four_1 ul			{color:#3a3a3a;}
+.four_2				{width:25%; min-height:200px; float:right; padding-top:80px}
+.four_2 img			{border:10px solid #CCC; border-radius:50%}
+.four_2 b			{ padding-left:52px}
+.four_2 a			{color:#1e73be; text-decoration:none}
+.four_2 a:hover		{color:#F60}
+
+.five				{ min-height:400px; font-family:Arial, Helvetica, sans-serif; border-bottom: 2px solid #1e73be;}
+.five_1				{width:25%; min-height:200px; float:left; padding-top:60px}
+.five_1 b			{ padding-left:52px}
+.five_1 img			{border:10px solid #CCC; border-radius:50%}
+.five_1 a			{color:#1e73be; text-decoration:none}
+.five_1 a:hover		{color:#F60}
+.five_2				{width:68%; min-height:300px; float:left; padding-top:30px; padding-left:60px}
+.five_2	p			{color:#212121}
+.five_2 ul			{color:#3a3a3a;}
+
+.six				{ text-align:center; font-family:Arial, Helvetica, sans-serif;}
+.six_1				{}
+.six_1 h1			{font-weight:100; font-size:30px; color:#212121}
+.six_1 p			{color: #3a3a3a; font-size:20px; font-weight:200}
+.six_1 i,b			{color: #3a3a3a;}
+.six_2				{ margin-top:50px}
+
+.seven				{background-color:#00263b; min-height:100px}
+
+.foot				{}
+.eight				{ width:15%; float:left; font-family:Arial, Helvetica, sans-serif; color:#3a3a3a; margin:20px 50px}
+.eight h2			{font-weight:200}
+.eight ul			{list-style:none}
+
+.nine				{background-color:#cccccc; min-height:60px; text-align:center; font-family:Arial, Helvetica, sans-serif}
+.nine p				{padding:20px 0px}
+
+
+/*********************************** Responsive Styles **************************************/
+
+@media screen and (max-width:1280px){
+	
+	
+}
+
+@media screen and (max-width:1080px){
+	
+
+}
+
+@media screen and (max-width:1024px){
+	
+.midwrap						{ width:98%; margin:0 1%;}
+.one_2							{ width:51%}
+.eight							{ margin:20px 49px;}
+}
+
+@media screen and (max-width:960px){
+	
+
+}
+
+@media screen and (max-width:900px){
+	
+
+}
+
+@media screen and (max-width:800px){
+	
+ .one_2						{ width:65%; margin:20px 0;}
+ .imgblg_1					{ width:65%; padding-left:0;}
+ .five						{min-height: 530px;}
+ .five_2					{width:65%}
+ .eight						{ width:19%; margin:20px}
+}
+
+@media screen and (max-width:768px){
+	
+
+}
+@media screen and (max-width:767px){
+	
+.one_1						{ width:100%;}
+.one_2						{ width:100%;}
+.one_2 ul					{ padding:0; margin:0}
+.one_2 ul li				{ width:100%; padding:10px 0; background:red; border:1px solid #fff;}
+.eight						{ width:100%; margin:0; text-align:center} 
+}

@@ -1,0 +1,3 @@
+Font Family:  Open Sans, Sans-Serif
+
+COlor: #1e72bd 
